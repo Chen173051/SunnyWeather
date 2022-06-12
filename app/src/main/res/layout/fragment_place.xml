@@ -16,6 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:background="@color/colorPrimary">
+
         <EditText
             android:id="@+id/searchPlaceEdit"
             android:layout_width="match_parent"
@@ -28,6 +29,7 @@
             android:hint="输入地址"
             android:background="@drawable/search_bg"/>
     </FrameLayout>
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
